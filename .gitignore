@@ -1,0 +1,42 @@
+# android
+/gen
+/bin
+/proguard/
+# ignore dlna
+
+.externalNativeBuild/
+
+#ignore networktest
+bin/
+gen/
+out/
+
+build/
+.idea/
+
+# git
+*.orig
+
+# editors
+*.swp
+*~
+
+# mac
+.DS_Store
+/tests/
+
+# intellij
+*.iml
+.settings/org.eclipse.core.resources.prefs
+
+# Gradle files
+.gradle/
+/build/
+*/build/
+
+*.pyc
+.idea/
+
+gradle/
+gradlew
+gradlew.bat
